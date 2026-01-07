@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM 
+"https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="testNGAnnotations.TestNG_Annotations" />
+			<class name="testNGAnnotations.TestNG_Annotations_Demo" />
+			<methods>
+				<include name=" testMethod1" />
+				<include name="testMethodDemo2" />
+				<exclude name = "testMethod2" />
+			</methods>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
