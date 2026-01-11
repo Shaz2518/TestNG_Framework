@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-11T20:47:25 IST" name="Default suite" finished-at="2026-01-11T20:47:25 IST" duration-ms="195">
+  <suite started-at="2026-01-11T21:18:22 IST" name="Default suite" finished-at="2026-01-11T21:18:23 IST" duration-ms="127">
     <groups>
     </groups>
-    <test started-at="2026-01-11T20:47:25 IST" name="Default test" finished-at="2026-01-11T20:47:25 IST" duration-ms="195">
-      <class name="testNGAnnotations.DataProviderDemo2">
-        <test-method signature="dataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderDemo2@4d5650ae]" started-at="2026-01-11T20:47:25 IST" name="dataProviderLogin" data-provider="LoginMethod" finished-at="2026-01-11T20:47:25 IST" duration-ms="11" status="PASS">
+    <test started-at="2026-01-11T21:18:22 IST" name="Default test" finished-at="2026-01-11T21:18:23 IST" duration-ms="127">
+      <class name="testNGAnnotations.DataProviderReturnType">
+        <test-method signature="loginDataProvider(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderReturnType@60099951]" started-at="2026-01-11T21:18:23 IST" name="loginDataProvider" data-provider="MultiData" finished-at="2026-01-11T21:18:23 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,8 +22,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataProviderLogin -->
-        <test-method signature="dataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderDemo2@4d5650ae]" started-at="2026-01-11T20:47:25 IST" name="dataProviderLogin" data-provider="LoginMethod" finished-at="2026-01-11T20:47:25 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- loginDataProvider -->
+        <test-method signature="loginDataProvider(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderReturnType@60099951]" started-at="2026-01-11T21:18:23 IST" name="loginDataProvider" data-provider="MultiData" finished-at="2026-01-11T21:18:23 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,8 +38,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataProviderLogin -->
-        <test-method signature="dataProviderLogin(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderDemo2@4d5650ae]" started-at="2026-01-11T20:47:25 IST" name="dataProviderLogin" data-provider="LoginMethod" finished-at="2026-01-11T20:47:25 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- loginDataProvider -->
+        <test-method signature="loginDataProvider(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderReturnType@60099951]" started-at="2026-01-11T21:18:23 IST" name="loginDataProvider" data-provider="MultiData" finished-at="2026-01-11T21:18:23 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,71 +54,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dataProviderLogin -->
-        <test-method signature="dataProviderProfile(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderDemo2@4d5650ae]" started-at="2026-01-11T20:47:25 IST" name="dataProviderProfile" data-provider="ProfileMethod" finished-at="2026-01-11T20:47:25 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[email1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[address1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataProviderProfile -->
-        <test-method signature="dataProviderProfile(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderDemo2@4d5650ae]" started-at="2026-01-11T20:47:25 IST" name="dataProviderProfile" data-provider="ProfileMethod" finished-at="2026-01-11T20:47:25 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[email2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[address2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataProviderProfile -->
-        <test-method signature="dataProviderProfile(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProviderDemo2@4d5650ae]" started-at="2026-01-11T20:47:25 IST" name="dataProviderProfile" data-provider="ProfileMethod" finished-at="2026-01-11T20:47:25 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[name3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[email3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[address3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataProviderProfile -->
-      </class> <!-- testNGAnnotations.DataProviderDemo2 -->
+        </test-method> <!-- loginDataProvider -->
+      </class> <!-- testNGAnnotations.DataProviderReturnType -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
