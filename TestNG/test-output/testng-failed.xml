@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAttributes.Attribute_Timeout">
+      <class name="testNGAttributes.Attribute_Invocation">
         <methods>
-          <include name="timeoutDemo"/>
+          <include name="invocationTimeout"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- testNGAttributes.Attribute_Timeout -->
+      </class> <!-- testNGAttributes.Attribute_Invocation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
