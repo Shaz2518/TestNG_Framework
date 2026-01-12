@@ -5,7 +5,7 @@
     <classes>
       <class name="testNGAnnotations.DataProviderReturnType">
         <methods>
-          <include name="loginData"/>
+          <include name="iteratorMethod"/>
         </methods>
       </class> <!-- testNGAnnotations.DataProviderReturnType -->
     </classes>
