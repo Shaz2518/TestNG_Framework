@@ -3,9 +3,9 @@ package testNGAnnotations;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class DataProviderDemo {
+public class DataProvider_Indices {
 
-	@Test(dataProvider = "dataProviderMethod")
+	@Test(dataProvider = "Login")
 	public void loginData(String username, String password) {
 		System.out.println("Data Provider Demo");
 		
@@ -13,7 +13,7 @@ public class DataProviderDemo {
 	}
 	
 	
-	@DataProvider(indices = {0,2})
+	@DataProvider(name = "Login")
 	public Object[][] dataProviderMethod(){
 		
 		return new Object[][]

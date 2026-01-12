@@ -1,57 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-12T10:36:20 IST" name="Default suite" finished-at="2026-01-12T10:36:20 IST" duration-ms="261">
+  <suite started-at="2026-01-12T11:01:52 IST" name="Suite" finished-at="2026-01-12T11:01:53 IST" duration-ms="391">
     <groups>
     </groups>
-    <test started-at="2026-01-12T10:36:20 IST" name="Default test" finished-at="2026-01-12T10:36:20 IST" duration-ms="261">
-      <class name="testNGAnnotations.DataProviderReturnType">
-        <test-method signature="iteratorArrayObjectDemo([Ljava.lang.String;)[pri:0, instance:testNGAnnotations.DataProviderReturnType@1a942c18]" started-at="2026-01-12T10:36:20 IST" name="iteratorArrayObjectDemo" data-provider="iteratorarrayDemo" finished-at="2026-01-12T10:36:20 IST" duration-ms="19" status="PASS">
+    <test started-at="2026-01-12T11:01:52 IST" name="Test" finished-at="2026-01-12T11:01:53 IST" duration-ms="391">
+      <class name="testNGAnnotations.DataProvider_ParallelExecution">
+        <test-method signature="loginData(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProvider_ParallelExecution@45099dd3]" started-at="2026-01-12T11:01:53 IST" name="loginData" data-provider="dataProviderMethod" finished-at="2026-01-12T11:01:53 IST" duration-ms="26" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@2ca923bb]]>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteratorArrayObjectDemo -->
-        <test-method signature="iteratorArrayObjectDemo([Ljava.lang.String;)[pri:0, instance:testNGAnnotations.DataProviderReturnType@1a942c18]" started-at="2026-01-12T10:36:20 IST" name="iteratorArrayObjectDemo" data-provider="iteratorarrayDemo" finished-at="2026-01-12T10:36:20 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProvider_ParallelExecution@45099dd3]" started-at="2026-01-12T11:01:53 IST" name="loginData" data-provider="dataProviderMethod" finished-at="2026-01-12T11:01:53 IST" duration-ms="25" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@13df2a8c]]>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteratorArrayObjectDemo -->
-        <test-method signature="iteratorArrayObjectDemo([Ljava.lang.String;)[pri:0, instance:testNGAnnotations.DataProviderReturnType@1a942c18]" started-at="2026-01-12T10:36:20 IST" name="iteratorArrayObjectDemo" data-provider="iteratorarrayDemo" finished-at="2026-01-12T10:36:20 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProvider_ParallelExecution@45099dd3]" started-at="2026-01-12T11:01:53 IST" name="loginData" data-provider="dataProviderMethod" finished-at="2026-01-12T11:01:53 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@4808bc9b]]>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteratorArrayObjectDemo -->
-        <test-method signature="iteratorArrayObjectDemo([Ljava.lang.String;)[pri:0, instance:testNGAnnotations.DataProviderReturnType@1a942c18]" started-at="2026-01-12T10:36:20 IST" name="iteratorArrayObjectDemo" data-provider="iteratorarrayDemo" finished-at="2026-01-12T10:36:20 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProvider_ParallelExecution@45099dd3]" started-at="2026-01-12T11:01:53 IST" name="loginData" data-provider="dataProviderMethod" finished-at="2026-01-12T11:01:53 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.String;@70e38ce1]]>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iteratorArrayObjectDemo -->
-      </class> <!-- testNGAnnotations.DataProviderReturnType -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProvider_ParallelExecution@45099dd3]" started-at="2026-01-12T11:01:53 IST" name="loginData" data-provider="dataProviderMethod" finished-at="2026-01-12T11:01:53 IST" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method signature="loginData(java.lang.String,java.lang.String)[pri:0, instance:testNGAnnotations.DataProvider_ParallelExecution@45099dd3]" started-at="2026-01-12T11:01:53 IST" name="loginData" data-provider="dataProviderMethod" finished-at="2026-01-12T11:01:53 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- testNGAnnotations.DataProvider_ParallelExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

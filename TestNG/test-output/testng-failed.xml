@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAnnotations.DataProviderReturnType">
+      <class name="testNGAnnotations.DataProviderDemo">
         <methods>
-          <include name="iteratorMethod"/>
+          <include name="loginData"/>
         </methods>
-      </class> <!-- testNGAnnotations.DataProviderReturnType -->
+      </class> <!-- testNGAnnotations.DataProviderDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
