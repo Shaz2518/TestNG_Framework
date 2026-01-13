@@ -107,7 +107,7 @@ By completing this playlist, you will be able to:
 ## 🤝 Connect With Me
 
 - 💼 **LinkedIn:** https://www.linkedin.com/in/your-linkedin-username  
-- 💻 **GitHub:** https://github.com/your-github-username  
+- 💻 **GitHub:** https://github.com/Shaz2518/
 - 📧 **Email:** your.email@example.com  
 
 ---
