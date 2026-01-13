@@ -106,7 +106,7 @@ By completing this playlist, you will be able to:
 
 ## 🤝 Connect With Me
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/your-linkedin-username  
+- 💼 **LinkedIn:** https://www.linkedin.com/in/shaziya-shaikh
 - 💻 **GitHub:** https://github.com/Shaz2518/
 - 📧 **Email:** shaziyashaikh2518@outlook.com  
 
