@@ -112,7 +112,4 @@ By completing this playlist, you will be able to:
 
 ---
 
-## 🙏 Acknowledgements
-Thanks to **Swaroop Nadella** for the detailed and practical TestNG tutorial series.
-
-Happy Learning & Testing! 🎯
+## Happy Learning & Testing! 🎯
