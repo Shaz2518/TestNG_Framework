@@ -1,84 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-13T13:06:35 IST" name="Suite" finished-at="2026-01-13T13:06:36 IST" duration-ms="285">
+  <suite started-at="2026-01-13T14:05:25 IST" name="Suite" finished-at="2026-01-13T14:05:25 IST" duration-ms="267">
     <groups>
     </groups>
-    <test started-at="2026-01-13T13:06:35 IST" name="Test" finished-at="2026-01-13T13:06:36 IST" duration-ms="124">
-      <class name="testNGParameters.ThreeParameters">
-        <test-method signature="threeParameters(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGParameters.ThreeParameters@52719fb6]" started-at="2026-01-13T13:06:36 IST" name="threeParameters" finished-at="2026-01-13T13:06:36 IST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shaziya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Shaz@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-01-13T14:05:25 IST" name="Test" finished-at="2026-01-13T14:05:25 IST" duration-ms="267">
+      <class name="parallelExecution.ParallelExecution">
+        <test-method signature="parallelExec1()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec1" finished-at="2026-01-13T14:05:25 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- threeParameters -->
-      </class> <!-- testNGParameters.ThreeParameters -->
+        </test-method> <!-- parallelExec1 -->
+        <test-method signature="parallelExec3()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec3" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec3 -->
+        <test-method signature="parallelExec2()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec2" finished-at="2026-01-13T14:05:25 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec2 -->
+        <test-method signature="parallelExec4()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec4" finished-at="2026-01-13T14:05:25 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec4 -->
+        <test-method signature="parallelExec5()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec5" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec5 -->
+      </class> <!-- parallelExecution.ParallelExecution -->
+      <class name="parallelExecution.ParallelExecution3">
+        <test-method signature="parallelExec2()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec2" finished-at="2026-01-13T14:05:25 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec2 -->
+        <test-method signature="parallelExec1()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec1" finished-at="2026-01-13T14:05:25 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec1 -->
+        <test-method signature="parallelExec5()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec5" finished-at="2026-01-13T14:05:25 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec5 -->
+        <test-method signature="parallelExec4()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec4" finished-at="2026-01-13T14:05:25 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec4 -->
+        <test-method signature="parallelExec3()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec3" finished-at="2026-01-13T14:05:25 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec3 -->
+      </class> <!-- parallelExecution.ParallelExecution3 -->
+      <class name="parallelExecution.ParallelExecution2">
+        <test-method signature="parallelExec1()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec1" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec1 -->
+        <test-method signature="parallelExec2()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec2" finished-at="2026-01-13T14:05:25 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec2 -->
+        <test-method signature="parallelExec3()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec3" finished-at="2026-01-13T14:05:25 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec3 -->
+        <test-method signature="parallelExec4()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec4" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec4 -->
+        <test-method signature="parallelExec5()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec5" finished-at="2026-01-13T14:05:25 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallelExec5 -->
+      </class> <!-- parallelExecution.ParallelExecution2 -->
     </test> <!-- Test -->
-    <test started-at="2026-01-13T13:06:36 IST" name="Test1" finished-at="2026-01-13T13:06:36 IST" duration-ms="18">
-      <class name="testNGParameters.ThreeParameters">
-        <test-method signature="threeParameters(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGParameters.ThreeParameters@8458f04]" started-at="2026-01-13T13:06:36 IST" name="threeParameters" finished-at="2026-01-13T13:06:36 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Virat]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[cheeku@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[UK]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- threeParameters -->
-      </class> <!-- testNGParameters.ThreeParameters -->
-    </test> <!-- Test1 -->
-    <test started-at="2026-01-13T13:06:36 IST" name="Test2" finished-at="2026-01-13T13:06:36 IST" duration-ms="12">
-      <class name="testNGParameters.ThreeParameters">
-        <test-method signature="threeParameters(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGParameters.ThreeParameters@68c9133c]" started-at="2026-01-13T13:06:36 IST" name="threeParameters" finished-at="2026-01-13T13:06:36 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Akshay]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Aksh@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[USA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- threeParameters -->
-      </class> <!-- testNGParameters.ThreeParameters -->
-    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
