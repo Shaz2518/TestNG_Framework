@@ -1,17 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-13T11:53:13 IST" name="Default suite" finished-at="2026-01-13T11:53:13 IST" duration-ms="190">
+  <suite started-at="2026-01-13T13:06:35 IST" name="Suite" finished-at="2026-01-13T13:06:36 IST" duration-ms="285">
     <groups>
     </groups>
-    <test started-at="2026-01-13T11:53:13 IST" name="Default test" finished-at="2026-01-13T11:53:13 IST" duration-ms="190">
-      <class name="testNGAttributes.Attribute_Description">
-        <test-method signature="descriptionMethod()[pri:0, instance:testNGAttributes.Attribute_Description@534a5a98]" started-at="2026-01-13T11:53:13 IST" name="descriptionMethod" description="This method give description" finished-at="2026-01-13T11:53:13 IST" duration-ms="23" status="PASS">
+    <test started-at="2026-01-13T13:06:35 IST" name="Test" finished-at="2026-01-13T13:06:36 IST" duration-ms="124">
+      <class name="testNGParameters.ThreeParameters">
+        <test-method signature="threeParameters(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGParameters.ThreeParameters@52719fb6]" started-at="2026-01-13T13:06:36 IST" name="threeParameters" finished-at="2026-01-13T13:06:36 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shaziya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shaz@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- descriptionMethod -->
-      </class> <!-- testNGAttributes.Attribute_Description -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- threeParameters -->
+      </class> <!-- testNGParameters.ThreeParameters -->
+    </test> <!-- Test -->
+    <test started-at="2026-01-13T13:06:36 IST" name="Test1" finished-at="2026-01-13T13:06:36 IST" duration-ms="18">
+      <class name="testNGParameters.ThreeParameters">
+        <test-method signature="threeParameters(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGParameters.ThreeParameters@8458f04]" started-at="2026-01-13T13:06:36 IST" name="threeParameters" finished-at="2026-01-13T13:06:36 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Virat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cheeku@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeParameters -->
+      </class> <!-- testNGParameters.ThreeParameters -->
+    </test> <!-- Test1 -->
+    <test started-at="2026-01-13T13:06:36 IST" name="Test2" finished-at="2026-01-13T13:06:36 IST" duration-ms="12">
+      <class name="testNGParameters.ThreeParameters">
+        <test-method signature="threeParameters(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGParameters.ThreeParameters@68c9133c]" started-at="2026-01-13T13:06:36 IST" name="threeParameters" finished-at="2026-01-13T13:06:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akshay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aksh@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeParameters -->
+      </class> <!-- testNGParameters.ThreeParameters -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGAttributes.Attribute_Invocation">
+      <class name="testNGParameters.ThreeParameters">
         <methods>
-          <include name="invocationTimeout"/>
-          <include name="beforeTest"/>
+          <include name="threeParameters"/>
         </methods>
-      </class> <!-- testNGAttributes.Attribute_Invocation -->
+      </class> <!-- testNGParameters.ThreeParameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
