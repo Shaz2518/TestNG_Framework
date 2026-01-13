@@ -1,77 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-13T14:05:25 IST" name="Suite" finished-at="2026-01-13T14:05:25 IST" duration-ms="267">
+  <suite started-at="2026-01-13T19:41:16 IST" name="Default suite" finished-at="2026-01-13T19:41:17 IST" duration-ms="1215">
     <groups>
     </groups>
-    <test started-at="2026-01-13T14:05:25 IST" name="Test" finished-at="2026-01-13T14:05:25 IST" duration-ms="267">
-      <class name="parallelExecution.ParallelExecution">
-        <test-method signature="parallelExec1()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec1" finished-at="2026-01-13T14:05:25 IST" duration-ms="7" status="PASS">
+    <test started-at="2026-01-13T19:41:16 IST" name="Default test" finished-at="2026-01-13T19:41:17 IST" duration-ms="1215">
+      <class name="testNGListeners.ListenersClass">
+        <test-method signature="failureTestDemo()[pri:0, instance:testNGListeners.ListenersClass@25641d39]" started-at="2026-01-13T19:41:16 IST" name="failureTestDemo" finished-at="2026-01-13T19:41:16 IST" duration-ms="34" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [TestNGDemo] but found [TestNG]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [TestNGDemo] but found [TestNG]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testNGListeners.ListenersClass.failureTestDemo(ListenersClass.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- parallelExec1 -->
-        <test-method signature="parallelExec3()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec3" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
+        </test-method> <!-- failureTestDemo -->
+        <test-method signature="failureTimeoutDemo()[pri:0, instance:testNGListeners.ListenersClass@25641d39]" started-at="2026-01-13T19:41:16 IST" name="failureTimeoutDemo" finished-at="2026-01-13T19:41:17 IST" duration-ms="1055" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method testNGListeners.ListenersClass.failureTimeoutDemo() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method testNGListeners.ListenersClass.failureTimeoutDemo() didn't finish within the time-out 1000
+at java.base@11.0.21/java.lang.Thread.sleep(Native Method)
+at app//testNGListeners.ListenersClass.failureTimeoutDemo(ListenersClass.java:21)
+at java.base@11.0.21/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@11.0.21/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base@11.0.21/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@11.0.21/java.lang.reflect.Method.invoke(Method.java:566)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@11.0.21/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base@11.0.21/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base@11.0.21/java.lang.Thread.run(Thread.java:829)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- parallelExec3 -->
-        <test-method signature="parallelExec2()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec2" finished-at="2026-01-13T14:05:25 IST" duration-ms="19" status="PASS">
+        </test-method> <!-- failureTimeoutDemo -->
+        <test-method signature="listenerDemo()[pri:0, instance:testNGListeners.ListenersClass@25641d39]" started-at="2026-01-13T19:41:17 IST" name="listenerDemo" finished-at="2026-01-13T19:41:17 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- parallelExec2 -->
-        <test-method signature="parallelExec4()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec4" finished-at="2026-01-13T14:05:25 IST" duration-ms="12" status="PASS">
+        </test-method> <!-- listenerDemo -->
+        <test-method signature="listenerPractice()[pri:0, instance:testNGListeners.ListenersClass@25641d39]" started-at="2026-01-13T19:41:17 IST" name="listenerPractice" finished-at="2026-01-13T19:41:17 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- parallelExec4 -->
-        <test-method signature="parallelExec5()[pri:0, instance:parallelExecution.ParallelExecution@e350b40]" started-at="2026-01-13T14:05:25 IST" name="parallelExec5" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
+        </test-method> <!-- listenerPractice -->
+        <test-method signature="skippedTestDemo()[pri:0, instance:testNGListeners.ListenersClass@25641d39]" started-at="2026-01-13T19:41:17 IST" name="skippedTestDemo" finished-at="2026-01-13T19:41:17 IST" depends-on-methods="testNGListeners.ListenersClass.failureTimeoutDemo" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNGListeners.ListenersClass.skippedTestDemo() on instance testNGListeners.ListenersClass@25641d39 depends on not successfully finished methods 
+[testNGListeners.ListenersClass.failureTimeoutDemo() on instance testNGListeners.ListenersClass@25641d39]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNGListeners.ListenersClass.skippedTestDemo() on instance testNGListeners.ListenersClass@25641d39 depends on not successfully finished methods 
+[testNGListeners.ListenersClass.failureTimeoutDemo() on instance testNGListeners.ListenersClass@25641d39]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- parallelExec5 -->
-      </class> <!-- parallelExecution.ParallelExecution -->
-      <class name="parallelExecution.ParallelExecution3">
-        <test-method signature="parallelExec2()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec2" finished-at="2026-01-13T14:05:25 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec2 -->
-        <test-method signature="parallelExec1()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec1" finished-at="2026-01-13T14:05:25 IST" duration-ms="20" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec1 -->
-        <test-method signature="parallelExec5()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec5" finished-at="2026-01-13T14:05:25 IST" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec5 -->
-        <test-method signature="parallelExec4()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec4" finished-at="2026-01-13T14:05:25 IST" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec4 -->
-        <test-method signature="parallelExec3()[pri:0, instance:parallelExecution.ParallelExecution3@3012646b]" started-at="2026-01-13T14:05:25 IST" name="parallelExec3" finished-at="2026-01-13T14:05:25 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec3 -->
-      </class> <!-- parallelExecution.ParallelExecution3 -->
-      <class name="parallelExecution.ParallelExecution2">
-        <test-method signature="parallelExec1()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec1" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec1 -->
-        <test-method signature="parallelExec2()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec2" finished-at="2026-01-13T14:05:25 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec2 -->
-        <test-method signature="parallelExec3()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec3" finished-at="2026-01-13T14:05:25 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec3 -->
-        <test-method signature="parallelExec4()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec4" finished-at="2026-01-13T14:05:25 IST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec4 -->
-        <test-method signature="parallelExec5()[pri:0, instance:parallelExecution.ParallelExecution2@f09733f]" started-at="2026-01-13T14:05:25 IST" name="parallelExec5" finished-at="2026-01-13T14:05:25 IST" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallelExec5 -->
-      </class> <!-- parallelExecution.ParallelExecution2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- skippedTestDemo -->
+      </class> <!-- testNGListeners.ListenersClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

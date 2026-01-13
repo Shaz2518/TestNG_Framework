@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGParameters.ThreeParameters">
+      <class name="testNGListeners.ListenersClass">
         <methods>
-          <include name="threeParameters"/>
+          <include name="failureTimeoutDemo"/>
+          <include name="failureTestDemo"/>
+          <include name="skippedTestDemo"/>
         </methods>
-      </class> <!-- testNGParameters.ThreeParameters -->
+      </class> <!-- testNGListeners.ListenersClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
